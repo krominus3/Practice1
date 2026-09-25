@@ -22,6 +22,13 @@ public class CubeCreate : MonoBehaviour
             return;
         }
 
+        if (numberOfCubes < 0)
+        {
+            Debug.LogError("Cube count < 0");
+            return;
+        }
+
+        // Len delat runtime kolichestvo kubov
         cubes = new GameObject[numberOfCubes];
 
         for (int i = 0; i < numberOfCubes; i++)
