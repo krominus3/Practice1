@@ -25,6 +25,7 @@ public class CubeCreate : MonoBehaviour
         if (numberOfCubes < 0)
         {
             Debug.LogError("Cube count < 0");
+            numberOfCubes = 0;
             return;
         }
 
@@ -40,7 +41,7 @@ public class CubeCreate : MonoBehaviour
 
     void Update()
     {
-        for (int i = 0; i < cubes.Length; i++)
+        for (int i = 0; i < numberOfCubes; i++)
         {
             float angle = i * angleIncrement;
             Quaternion rotation = Quaternion.Euler(0f, angle, 0f);
