@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "DiceThrow",
+    "maps": [
+        {
+            "name": "Throw",
+            "id": "30fc11c7-9dd7-4d6e-afe9-5307dfef21ed",
+            "actions": [
+                {
+                    "name": "ThrowDice",
+                    "type": "Button",
+                    "id": "66c8adbd-78b3-4a21-b184-4fb79f359c9c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ee653f4b-d031-470f-8812-031c4773ff6d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrowDice",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

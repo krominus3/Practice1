@@ -287,7 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Practice2
   prefab: {fileID: 1321939306315973696, guid: 735b958cbe743984aa4e5201928408dc, type: 3}
   rotationRadius: 2
-  numberOfCubes: 6
+  numberOfCubes: -12
   angleIncrement: 30
   rotationSpeed: 20
   rotationAxis: {x: 0, y: 1, z: 0}
