@@ -6,6 +6,7 @@ public class DiceInput : MonoBehaviour
 {
     [Header("Input System")]
     [SerializeField] private InputActionReference throwAction;
+    [SerializeField] private GameController GC;
 
     public event Action OnThrowRequested;
 
